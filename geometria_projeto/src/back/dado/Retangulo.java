@@ -9,7 +9,6 @@ public class Retangulo extends ObjetoGeometrico {
         this.altura = altura;
     }
 
-    @Override
     public double calcularArea() {
         return largura * altura;
     }
