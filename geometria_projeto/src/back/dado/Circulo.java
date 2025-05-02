@@ -7,7 +7,6 @@ public class Circulo extends ObjetoGeometrico {
         this.raio = raio;
     }
 
-    @Override
     public double calcularArea() {
         return Math.PI * raio * raio;
     }
