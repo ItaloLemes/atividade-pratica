@@ -9,7 +9,6 @@ public class Triangulo extends ObjetoGeometrico {
         this.altura = altura;
     }
 
-    @Override
     public double calcularArea() {
         return (base * altura) / 2;
     }
